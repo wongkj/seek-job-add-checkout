@@ -1,7 +1,8 @@
-import logo from './logo.svg';
+import axios from 'axios'
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header><h1>Seek Job Add Checkout System</h1></header>

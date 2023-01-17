@@ -4,7 +4,8 @@ services:
     build: .
     ports:
       - "3000:3000"
+      - "9090:9090"
     volumes:
-      - ./src:/app/src:ro
+      - ./src:/app/src
     environment:
       - REACT_APP_NAME=seek-job-add-checkout
